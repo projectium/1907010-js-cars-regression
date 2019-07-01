@@ -1,0 +1,22 @@
+// https://eslint.org/docs/rules/
+
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": ["error", { "object": true, "array": true }],
+    "prefer-numeric-literals": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error"
+  }
+}
